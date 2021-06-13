@@ -1,0 +1,57 @@
+body {
+    background: url("https://cdn.pixabay.com/photo/2017/03/15/13/27/rough-horn-2146181_960_720.jpg");
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    background-size: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+    margin: 0;
+    padding: 0;
+  }
+  .page_2 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .page2-header {
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 200%;
+  }
+  
+  .page_2-card {
+      
+    border: 0.5px solid #fff;
+    background:rgb(192, 166, 166);
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    opacity: 0.9;
+  }
+  .page_2-card h3 {
+    text-align: left;
+    margin-left: 40px;
+    color: #fff;
+  }
+  .page_2-card {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin: 5% auto;
+    text-align: center;
+  }
+  
+  /*Media Querie*/
+  @media only screen and (min-width: 150px) and (max-width: 530px) {
+    .page_2-card h3 {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  
